@@ -1,9 +1,8 @@
-namespace joystick {
+namespace joystick_TK94 {
     /**
      * Определяет состояние джойстика
      */
     //% block="joystick state %sensor"
-    //% weight=100 color=#0fbc11 icon="\uf11b"
     //% sensor.min=0 sensor.max=1023
     export function joystickState(sensor: number): string {
         let joystickStateResult = "Steady"
